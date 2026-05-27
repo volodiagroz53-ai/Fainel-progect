@@ -1,8 +1,8 @@
 /* Основні стилі для тіла сторінки */
 body {
-    font-family: Arial, sans-serif;
+    font-family: Black Ops One, sans-serif;
     font-size: 100%;
-    background-color: #BBCDE5; /* Світло-блакитний з палітри */
+    background-color: #ebcf34; /* Світло-блакитний з палітри */
     margin: 0;
     padding: 0;
 }
@@ -10,18 +10,20 @@ body {
 /* Хедер */
 header {
     padding: 50px 0;
-    background-color: #1C5D99; /* Синій з палітри */
+    background-color: #92eb34; /* Синій з палітри */
     text-align: center;
 }
 
 h1, h2 {
     color: #FFFFFF; /* Білий для контрасту */
     margin: 0;
+    font-size: 4.5rem;
+    font-size: italic
 }
 
 /* Навігація (Горизонтальне меню) */
 nav {
-    background-color: #639FA8; /* Бірюзовий з палітри */
+    background-color: #58eb34; /* Бірюзовий з палітри */
     border-color: #1C5D99;
     min-height: 64px;
 }
@@ -41,7 +43,7 @@ nav li {
 nav a {
     display: block;
     color: #000000; /* Чорний */
-    line-height: 4em;
+    line-height: 3em;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
@@ -49,7 +51,7 @@ nav a {
 
 nav a:hover {
     color: #FFFFFF;
-    background-color: #1C5D99; /* Колір при наведенні */
+    background-color:#d6b213; /* Колір при наведенні */
 }
 
 /* Основний контент */
@@ -64,7 +66,7 @@ p {
 
 /* Футер */
 footer {
-    background-color: #1C5D99;
+    background-color: #d6b213;
     color: #FFFFFF;
     padding: 20px 0;
     margin-top: 30px;
